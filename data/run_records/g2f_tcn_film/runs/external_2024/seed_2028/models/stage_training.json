@@ -1,0 +1,25 @@
+{
+  "stage_model": "tcn_film",
+  "stage_params": {
+    "genotype_components": 16,
+    "width": 64,
+    "depth": 2,
+    "kernel_size": 5,
+    "dropout": 0.05575064209904841,
+    "learning_rate": 0.00023331612883254398,
+    "weight_decay": 4.294872966184637e-06,
+    "batch_size": 512,
+    "epochs": 120,
+    "patience": 15,
+    "validation_fraction": 0.15,
+    "amp": true,
+    "device": "cuda",
+    "verbose": true
+  },
+  "best_epoch": 69,
+  "best_validation_loss": 0.04226091944257773,
+  "network_weights": "stage_weights.pt",
+  "preprocessing": "stage_preprocessing.joblib",
+  "weight_initialization": "Fresh random initialization; no European network weights loaded.",
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

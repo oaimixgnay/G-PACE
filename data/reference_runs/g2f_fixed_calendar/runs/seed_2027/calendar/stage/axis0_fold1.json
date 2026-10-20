@@ -1,0 +1,33 @@
+{
+  "training_signature": "e3dc9e03796b78a4c85e8d63ada1e127a5a00a84acc0203d79d4406c994efbb4",
+  "kind": "calendar",
+  "stage_seed": 2028,
+  "fit_rows": 52609,
+  "predict_rows": 25530,
+  "fit_indices_sha256": "1d420cbc89033b5bbd39b8e6651503da4a56ff47f6be9264fdad94043ed9364a",
+  "windows": {
+    "pollen_dap_median": 65.66666666666667,
+    "silk_dap_median": 67.0,
+    "pollen_boundary_dap": 66,
+    "silk_boundary_dap": 67,
+    "early_zero_based_inclusive": [
+      0,
+      65
+    ],
+    "flowering_zero_based_inclusive": [
+      63,
+      70
+    ],
+    "filling_zero_based_inclusive": [
+      71,
+      120
+    ],
+    "estimation_rows": 52609,
+    "estimator": "Record-weighted median of pollen/silk DAP in this fitting subset; rounded as in the original label construction.",
+    "definition": "Same calendar boundaries for all genotypes and environments within this fitted stage model."
+  },
+  "best_epoch": 94,
+  "best_validation_loss": 0.022091662786099024,
+  "prediction_sha256": "812a6de3b4a27a4ed3e335249bae4a90a5db3671a27f990d2d090a0e0fa1dbf1",
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

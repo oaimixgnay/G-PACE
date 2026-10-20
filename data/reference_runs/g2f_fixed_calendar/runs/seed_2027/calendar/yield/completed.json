@@ -1,0 +1,10 @@
+{
+  "training_signature": "e3dc9e03796b78a4c85e8d63ada1e127a5a00a84acc0203d79d4406c994efbb4",
+  "model": "calendar",
+  "seed": 2027,
+  "sha256": {
+    "predictions.csv": "4423a7e8b2384e4313e36d166ade9329f58c3e9cab1c14cd369701e6bbe0924e",
+    "yield_model.joblib": "abc324d370b489f40b1f77974652d9ebbc7c0ffb7bff5df4771bf05245599e64"
+  },
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

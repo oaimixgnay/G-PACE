@@ -1,0 +1,37 @@
+{
+  "models": {
+    "reaction_norm_kernel": {
+      "alpha": 1.0,
+      "genotype_components": 32,
+      "environment_components": 12,
+      "genotype_weight": 1.0,
+      "environment_weight": 1.0,
+      "interaction_weight": 0.5
+    },
+    "ceris_jgra": {
+      "genotype_components": 32,
+      "alpha": 10.0,
+      "min_window": 7,
+      "max_window": 28,
+      "window_step": 7
+    },
+    "geformer_style": {
+      "genotype_components": 32,
+      "width": 96,
+      "heads": 4,
+      "dropout": 0.05,
+      "learning_rate": 0.0004,
+      "weight_decay": 0.0001,
+      "batch_size": 256,
+      "epochs": 120,
+      "patience": 15
+    }
+  },
+  "selection": {
+    "sequence_length": 100,
+    "outer_training_split": 1,
+    "inner_repeats": 2,
+    "external_data_used": false,
+    "objective": "0.40 PCC + 0.30 within-environment PCC + 0.20 within-environment Spearman + 0.10 clipped R2"
+  }
+}

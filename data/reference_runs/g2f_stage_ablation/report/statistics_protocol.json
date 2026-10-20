@@ -1,0 +1,15 @@
+{
+  "prediction_aggregation": "Mean predictions across the declared seeds first, then calculate metrics.",
+  "environment_aggregation": "Equal weight for within-environment/selection metrics; Fisher-z for within-environment PCC.",
+  "overall_metrics": "All records pooled; environment bootstrap keeps each sampled environment intact, including duplicate draws.",
+  "paired_difference": "Full G-PACE minus no-stage; same environment draws for both models.",
+  "bootstrap_unit": "Environment, with replacement; no resampling of rows within environments.",
+  "bootstrap_repeats": 5000,
+  "random_state": 20261016,
+  "correlation_missingness": "Within-environment metrics use the intersection of valid environments for the two models; counts reported.",
+  "within_pcc_difference": "Difference of Fisher-z aggregate PCCs, not arithmetic mean of per-environment PCC differences.",
+  "selection": "k=ceil(q*n), equal environment weights, deterministic hybrid-ID tie breaking.",
+  "inference": "Percentile intervals, unadjusted for multiple comparisons. Bootstrap fractions are not P values.",
+  "interpretation": "Retrospective selection on observed trial yield, not a prospective genetic-gain experiment.",
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

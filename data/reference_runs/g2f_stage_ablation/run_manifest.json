@@ -1,0 +1,152 @@
+{
+  "status": "complete",
+  "training_signature": "d62ad0f5f0554cd842a034cfa2c51f5f11201acbae8fdfc2cbbfd2bf3d83e307",
+  "provenance": {
+    "config": {
+      "stage_model": "tcn_film",
+      "sequence_length": 100,
+      "stage_params": {
+        "genotype_components": 16,
+        "width": 64,
+        "depth": 2,
+        "kernel_size": 5,
+        "dropout": 0.05575064209904841,
+        "learning_rate": 0.00023331612883254398,
+        "weight_decay": 4.294872966184637e-06,
+        "batch_size": 512,
+        "epochs": 120,
+        "patience": 15,
+        "validation_fraction": 0.15,
+        "amp": true
+      },
+      "yield_mode": "mean_residual_hybrid",
+      "yield_head": "catboost",
+      "yield_genotype_components": 16,
+      "yield_environment_components": 12,
+      "yield_params": {
+        "iterations": 1400,
+        "depth": 4,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 6.9,
+        "random_strength": 0.47,
+        "phenology_weight": 0.03,
+        "residual_weight": 0.75,
+        "mean_alpha": 0.42
+      },
+      "protocol": {
+        "training_years": "2014-2023",
+        "evaluation_year": 2024,
+        "crossfit_folds": 3,
+        "seeds": [
+          2026,
+          2027,
+          2028
+        ],
+        "configuration_selection": "Frozen European stage configuration and verified historical G2F yield settings; no new tuning on 2024 labels.",
+        "comparison_scope": "New stage algorithm with G2F-specific yield settings; not an unchanged European trained model."
+      }
+    },
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "threads": 8,
+    "backend": "CPU",
+    "python": "3.10.20",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "joblib": "1.5.3",
+      "catboost": "1.2.10",
+      "threadpoolctl": "3.6.0"
+    },
+    "inputs": {
+      "1_Training_Trait_Data_2014_2023.csv": "f206848428c9e7ff330716b0fc46ed78590deeb6dd38433b0b1b23a0390a21fb",
+      "2_Training_Meta_Data_2014_2023.csv": "6a251804d60a0cf12f7a0daf97db5e8982846444670ee7664d879f48558b6049",
+      "4_Training_Weather_Data_2014_2023_full_year.csv": "f9655f9db6df859cbd79b9be3ecead2c9229ad179b72a0292fd82d100e77865a",
+      "5_Genotype_Data_All_2014_2025_Hybrids_numerical.txt": "7113e3fcf53e26c13e6f00a9a467870c8eb664f7d9777a7737cde03b75aaf10a",
+      "1_Submission_Template_2024.csv": "80969670ef0f61c16d3dcaa1c410b1f1c628a2d0ca3ad21d444236e7ce8c4178",
+      "2_Testing_Meta_Data_2024.csv": "10bdecd20bc15bfe7354a6b1ee39eb0b9d206f0dfe4d220386c17dea86fffdab",
+      "4_Testing_Weather_Data_2024_full_year.csv": "1a9db3c7a992e89e0de1e48b7dc4afae0c9181abc3413b48a9fd86767793a1a8",
+      "7_Testing_Observed_Values.csv": "8bd354c44bce50abd09a9839272112fdb34bdb96ec6e37ae644eda916aeeabcc"
+    },
+    "source_manifest_sha256": "28c427cf33b623e8db081736cecb6b0c8d0ec495726b5427dbf05c445a693053",
+    "source_predictions_sha256": "f82316eb5d000216386c206164be1e94d05cce7e4517caccc42afef232edcefd",
+    "stage_cache_sha256": {
+      "runs/external_2024/seed_2026/crossfit/axis0_fold0.npz": "9c142997ee0f4131b092706a4da9888bcf882f6744d3e1cf6a7a30fdd2301db9",
+      "runs/external_2024/seed_2026/crossfit/axis0_fold1.npz": "e8504a40ff3c9a80d0f337b0f9cb4a0cbe060aedc5712abe2739c7da6a72c35b",
+      "runs/external_2024/seed_2026/crossfit/axis0_fold2.npz": "30ed9a940c170901a42ca6b8332f715a39e586e20c7e9565b8b2851077e05084",
+      "runs/external_2024/seed_2026/crossfit/axis1_fold0.npz": "152980d85c56f0e602f6187622b1f2bf95738d69cc8eff000fa6bc899b90d427",
+      "runs/external_2024/seed_2026/crossfit/axis1_fold1.npz": "1e4cf8579dc5e1c8b3b9f0da946c1225f86f13fbedc831e86afef6dc30b6ef09",
+      "runs/external_2024/seed_2026/crossfit/axis1_fold2.npz": "8f5f73c40c19b35037aa071df20cc929e6b3c53abfcf4dab798b0f7e618a7332",
+      "runs/external_2024/seed_2026/test_exposures.npz": "d11ef1b9a91733a181c9c27fa6d4613885fa931da6bfda3778da2e93f569a4ec",
+      "runs/external_2024/seed_2027/crossfit/axis0_fold0.npz": "7cd23cacb0680d5a5925eb928108d01942d0399d443895d417e121dd6a5567d7",
+      "runs/external_2024/seed_2027/crossfit/axis0_fold1.npz": "081062821c5c98b9099a5d4aec5d5d136bb67dbd8d97318fed0d0afa8038a271",
+      "runs/external_2024/seed_2027/crossfit/axis0_fold2.npz": "8489996b81f00d21bfec9ebba01d88518441fa89c710b9ebbdc900b63f400f49",
+      "runs/external_2024/seed_2027/crossfit/axis1_fold0.npz": "ae6d30bc4721fd12c1f17414b6239922e804466030e839ed0b7e8fba430ba79a",
+      "runs/external_2024/seed_2027/crossfit/axis1_fold1.npz": "21f380292bde80fdd21c6032ddfa1ba28423bad114ce7891054e953f5f9d13cd",
+      "runs/external_2024/seed_2027/crossfit/axis1_fold2.npz": "fdafe1eec7554a2e65d1f88303ef937cff5524ff984b0ce99f1ca59afc9f0976",
+      "runs/external_2024/seed_2027/test_exposures.npz": "49f479d5027308eaa71b993015a7d6748df6d0fa0679ae067eaac3e1bcadfc22",
+      "runs/external_2024/seed_2028/crossfit/axis0_fold0.npz": "549fd6a7b64605457fa04050f8432026442f89b43df78b44fda71dd6eb996ba7",
+      "runs/external_2024/seed_2028/crossfit/axis0_fold1.npz": "ae10bcb49e428ff0e6640dd9680e86fa20c61d3537059217a6aff397178a59b7",
+      "runs/external_2024/seed_2028/crossfit/axis0_fold2.npz": "d1212d36c15ee7dce47fc06c01d81612bf2ea8c4a975353b280b36d60d41890c",
+      "runs/external_2024/seed_2028/crossfit/axis1_fold0.npz": "6871ca00e64d59d8b03e876abab4489691372b6dd4480ef4ffb6abf8443fe981",
+      "runs/external_2024/seed_2028/crossfit/axis1_fold1.npz": "e87b831dd3e9cf5407604c468b1ee9b268d6c3c612b15f75743f15ece1366a86",
+      "runs/external_2024/seed_2028/crossfit/axis1_fold2.npz": "d287c6d49e166c3f3e3980f27887a63b6bf5b29bf1c2663a353319857f093dfa",
+      "runs/external_2024/seed_2028/test_exposures.npz": "0facfb37c2d2cdd0a74bfd0e032b68d541a856206a6677e75a4c0ad23cf1ceb9"
+    },
+    "code_sha256": {
+      "scripts/ablation_models.py": "47ebe0abf3fb42d5f28544204510c857398d8230ba723934c41b24878b99c5d7",
+      "scripts/paired_statistics.py": "b9af1916e923ffb61f4ae541e845c593b28cd1eabc30e7ac811605c59df4b62f",
+      "scripts/run_stage_ablation.py": "340683e30e71ec32fcb9337211b40c2745a583adf0a37cb78b854a30b5cc50a4",
+      "scripts/self_test.py": "1278c0c063fedc146ae0c65f44e32935a6bc33e1f9921addeac4705fc5219eec",
+      "src/gpace/__init__.py": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+      "src/gpace/data.py": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+      "src/gpace/features.py": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+      "src/gpace/g2f.py": "97d3c24adbb51b36bb848336f454eeeaece52c017c24b916d157e7ac09ed9db9",
+      "src/gpace/models.py": "90adf22d503762aa9a40038204ab037db56314ea915a1c7a5c3fe90a8b52cdb9"
+    }
+  },
+  "started_utc": "2026-10-16T11:49:35.091739+00:00",
+  "source_evaluation": "${PROJECT_ROOT}/outputs/g2f_2024_tcn_film_gpace_only_day100/evaluation",
+  "data_dir": "${G2F_DATA_DIR}",
+  "output_dir": "${PROJECT_ROOT}/outputs/g2f_stage_ablation_day100_cpu",
+  "protocol": "Fixed-configuration paired CPU ablation; frozen TCN–FiLM crossfit/test features from completed historical run; no tuning.",
+  "vram_policy": "Both heads task_type=CPU, CUDA_VISIBLE_DEVICES empty; no neural training; GPU memory usage=0.",
+  "stage_feature_policy": "Full uses original dual-axis OOF train exposures; ablation deletes both Z and G×Z columns.",
+  "original_full_policy": "Original GPU predictions are a descriptive reference only, never paired with a CPU-only ablation as the primary result.",
+  "data_audit": {
+    "data_dir": "${G2F_DATA_DIR}",
+    "training_plot_records": 129057,
+    "training_plot_records_without_planting_date_excluded": 44903,
+    "training_gxe_means": 78139,
+    "external_2024_labeled_records": 9486,
+    "training_environment_count": 222,
+    "external_2024_environment_count": 22,
+    "external_2024_submission_pairs_without_label": 571,
+    "training_environments_without_weather_excluded": [
+      "TXH2_2015",
+      "TXH2_2016",
+      "TXH2_2017"
+    ],
+    "training_rows_without_complete_stage_exposure_excluded": 6624,
+    "training_rows_without_hybrid_genotype_excluded": 888,
+    "genotype_missing_calls_imputed": 455228,
+    "genotype_count": 5899,
+    "marker_count": 2425,
+    "environment_count": 244,
+    "sequence_shape": [
+      100,
+      10
+    ],
+    "sequence_length_requested": 100,
+    "sequence_length_min": 100,
+    "sequence_length_max": 100,
+    "stage_label_definition": "early=planting-to-pollen; flowering=pollen-3-to-silk+3; filling=silk+4-to-silk+53"
+  },
+  "completed_utc": "2026-10-16T11:52:15.512242+00:00",
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

@@ -1,0 +1,152 @@
+{
+  "status": "complete",
+  "training_signature": "02a40f1d87ba85a16a87dc0941c010021d07be4bfb232b9ccece151a5369c33f",
+  "started_utc": "2026-10-15T02:53:20.158760+00:00",
+  "config": {
+    "data_dir": "${G2F_DATA_DIR}",
+    "output_dir": "${PROJECT_ROOT}/outputs/g2f_2024_tcn_film_gpace_only_day100/evaluation",
+    "config_json": "${PROJECT_ROOT}/G2F_TCN_FiLM_GPACE_only/config/g2f_tcn_film_frozen.json",
+    "device": "cuda",
+    "seeds": "2026,2027,2028",
+    "crossfit_folds": 3,
+    "bootstrap_repeats": 1000,
+    "temporal_diagnostic": false,
+    "resume": true,
+    "preflight_only": false,
+    "stage_model": "tcn_film",
+    "sequence_length": 100
+  },
+  "stage_params": {
+    "genotype_components": 16,
+    "width": 64,
+    "depth": 2,
+    "kernel_size": 5,
+    "dropout": 0.05575064209904841,
+    "learning_rate": 0.00023331612883254398,
+    "weight_decay": 4.294872966184637e-06,
+    "batch_size": 512,
+    "epochs": 120,
+    "patience": 15,
+    "validation_fraction": 0.15,
+    "amp": true
+  },
+  "yield_params": {
+    "iterations": 1400,
+    "depth": 4,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 6.9,
+    "random_strength": 0.47,
+    "phenology_weight": 0.03,
+    "residual_weight": 0.75,
+    "mean_alpha": 0.42
+  },
+  "protocol": {
+    "training_years": "2014-2023",
+    "evaluation_year": 2024,
+    "crossfit_folds": 3,
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "configuration_selection": "Frozen European stage configuration and verified historical G2F yield settings; no new tuning on 2024 labels.",
+    "comparison_scope": "New stage algorithm with G2F-specific yield settings; not an unchanged European trained model."
+  },
+  "runtime_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.3",
+    "torch": "2.5.1+cu121",
+    "catboost": "1.2.10"
+  },
+  "input_files": {
+    "1_Training_Trait_Data_2014_2023.csv": {
+      "path": "${G2F_DATA_DIR}/1_Training_Trait_Data_2014_2023.csv",
+      "sha256": "f206848428c9e7ff330716b0fc46ed78590deeb6dd38433b0b1b23a0390a21fb"
+    },
+    "2_Training_Meta_Data_2014_2023.csv": {
+      "path": "${G2F_DATA_DIR}/2_Training_Meta_Data_2014_2023.csv",
+      "sha256": "6a251804d60a0cf12f7a0daf97db5e8982846444670ee7664d879f48558b6049"
+    },
+    "4_Training_Weather_Data_2014_2023_full_year.csv": {
+      "path": "${G2F_DATA_DIR}/4_Training_Weather_Data_2014_2023_full_year.csv",
+      "sha256": "f9655f9db6df859cbd79b9be3ecead2c9229ad179b72a0292fd82d100e77865a"
+    },
+    "5_Genotype_Data_All_2014_2025_Hybrids_numerical.txt": {
+      "path": "${G2F_DATA_DIR}/5_Genotype_Data_All_2014_2025_Hybrids_numerical.txt",
+      "sha256": "7113e3fcf53e26c13e6f00a9a467870c8eb664f7d9777a7737cde03b75aaf10a"
+    },
+    "1_Submission_Template_2024.csv": {
+      "path": "${G2F_DATA_DIR}/1_Submission_Template_2024.csv",
+      "sha256": "80969670ef0f61c16d3dcaa1c410b1f1c628a2d0ca3ad21d444236e7ce8c4178"
+    },
+    "2_Testing_Meta_Data_2024.csv": {
+      "path": "${G2F_DATA_DIR}/2_Testing_Meta_Data_2024.csv",
+      "sha256": "10bdecd20bc15bfe7354a6b1ee39eb0b9d206f0dfe4d220386c17dea86fffdab"
+    },
+    "4_Testing_Weather_Data_2024_full_year.csv": {
+      "path": "${G2F_DATA_DIR}/4_Testing_Weather_Data_2024_full_year.csv",
+      "sha256": "1a9db3c7a992e89e0de1e48b7dc4afae0c9181abc3413b48a9fd86767793a1a8"
+    },
+    "7_Testing_Observed_Values.csv": {
+      "path": "${G2F_DATA_DIR}/7_Testing_Observed_Values.csv",
+      "sha256": "8bd354c44bce50abd09a9839272112fdb34bdb96ec6e37ae644eda916aeeabcc"
+    }
+  },
+  "code_sha256": {
+    "scripts/run_g2f_tcn_film.py": "c913bb544243dbc59a7dd4995ffd6b5e4a73b2b6ef9ce0fb673e2ade40dbc6f5",
+    "src/gpace/__init__.py": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+    "src/gpace/benchmarks.py": "f681451247eefe62fcb53a1f7bd5515983fc88502cf24e7be9b7967aa1a4a65b",
+    "src/gpace/data.py": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+    "src/gpace/experiment.py": "4c967dc4545c9036b15b6fd78ad69a90c2179354a4e001fb51803929aaa3ed24",
+    "src/gpace/features.py": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+    "src/gpace/g2f.py": "97d3c24adbb51b36bb848336f454eeeaece52c017c24b916d157e7ac09ed9db9",
+    "src/gpace/metrics.py": "b660909ea862eea85718043c5ca605e08be0ad5d7e7576bc46a22072d8319535",
+    "src/gpace/models.py": "90adf22d503762aa9a40038204ab037db56314ea915a1c7a5c3fe90a8b52cdb9",
+    "src/gpace/reporting.py": "b04c3ed0365f5e3facaefc83b8e576edf282ba40b4f561bc4da2ef0e852384f6",
+    "src/gpace/splits.py": "3b6b576f8011335cbbcd40e189453b7cff3ea7058bec91b6c9c1e84f27d45dc3",
+    "src/gpace/tuning.py": "b6105c4c1768c45af191439a29fb75d14925d9258a68d44aad236ed434ae93a0",
+    "src/gpace/tuning_v3.py": "9f8b42aa40ede5a32f07ba2d75b654359a39e7b106662d6b8bdacc541368c088"
+  },
+  "network_source_sha256": "f4e428d3f43327bbbaf4e67313573e0078bfa1dcd9185dd8df565dde05ab5b0b",
+  "data_audit": {
+    "data_dir": "${G2F_DATA_DIR}",
+    "training_plot_records": 129057,
+    "training_plot_records_without_planting_date_excluded": 44903,
+    "training_gxe_means": 78139,
+    "external_2024_labeled_records": 9486,
+    "training_environment_count": 222,
+    "external_2024_environment_count": 22,
+    "external_2024_submission_pairs_without_label": 571,
+    "training_environments_without_weather_excluded": [
+      "TXH2_2015",
+      "TXH2_2016",
+      "TXH2_2017"
+    ],
+    "training_rows_without_complete_stage_exposure_excluded": 6624,
+    "training_rows_without_hybrid_genotype_excluded": 888,
+    "genotype_missing_calls_imputed": 455228,
+    "genotype_count": 5899,
+    "marker_count": 2425,
+    "environment_count": 244,
+    "sequence_shape": [
+      100,
+      10
+    ],
+    "sequence_length_requested": 100,
+    "sequence_length_min": 100,
+    "sequence_length_max": 100,
+    "stage_label_definition": "early=planting-to-pollen; flowering=pollen-3-to-silk+3; filling=silk+4-to-silk+53"
+  },
+  "completed_utc": "2026-10-15T04:23:00.632328+00:00",
+  "outputs": {
+    "g2f_yield_predictions.csv": "${PROJECT_ROOT}/outputs/g2f_2024_tcn_film_gpace_only_day100/evaluation/g2f_yield_predictions.csv",
+    "g2f_yield_metrics.csv": "${PROJECT_ROOT}/outputs/g2f_2024_tcn_film_gpace_only_day100/evaluation/g2f_yield_metrics.csv",
+    "g2f_yield_metric_intervals.csv": "${PROJECT_ROOT}/outputs/g2f_2024_tcn_film_gpace_only_day100/evaluation/g2f_yield_metric_intervals.csv",
+    "g2f_training_crossfit_exposure_metrics.csv": "${PROJECT_ROOT}/outputs/g2f_2024_tcn_film_gpace_only_day100/evaluation/g2f_training_crossfit_exposure_metrics.csv",
+    "g2f_model_run_summary.csv": "${PROJECT_ROOT}/outputs/g2f_2024_tcn_film_gpace_only_day100/evaluation/g2f_model_run_summary.csv"
+  },
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

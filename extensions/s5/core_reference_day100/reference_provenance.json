@@ -1,0 +1,28 @@
+{
+  "origin": "论文修改(1).7z",
+  "files": {
+    "region/report/environment_holdout_summary.csv": {
+      "original_path": "environment_holdouts_v2_day100/region/report/environment_holdout_summary.csv",
+      "sha256": "864ef9e9683411f50bb65ec0d6d23f0a0fb3e7e0133bcd6100050117d6adf7f3",
+      "recorded_source_sha256": "864ef9e9683411f50bb65ec0d6d23f0a0fb3e7e0133bcd6100050117d6adf7f3"
+    },
+    "stress/report/environment_holdout_summary.csv": {
+      "original_path": "environment_holdouts_v2_day100/stress/report/environment_holdout_summary.csv",
+      "sha256": "915874bfc9b0e3fe158be34ee8c2662423c90eadc553cf1aa1a75c811c8c948e",
+      "recorded_source_sha256": "915874bfc9b0e3fe158be34ee8c2662423c90eadc553cf1aa1a75c811c8c948e"
+    },
+    "stress/evaluation/run_manifest.json": {
+      "original_path": "environment_holdouts_v2_day100/stress/evaluation/run_manifest.json",
+      "sha256": "e3bd7db8512fd4688208ad23b0575d84c62e4aa2682421a29fb80afb60993a65",
+      "recorded_source_sha256": "c5486b6840f69f4f68b2093c603a2218ff5406f3e24eadc9baeefaa78caf1779"
+    },
+    "reference_cv_records.csv": {
+      "original_path": "environment_holdouts_v2_day100/stress/evaluation/yield_predictions.csv (e2e, seed=2026; predictions excluded)",
+      "sha256": "61cbae0cf178e24df8d3be64cbc1d99b26dcf35a83203825e051e56ad6ba9b10",
+      "region_assignment": "Derived using the unchanged original site-to-region mapping, not original region prediction files.",
+      "recorded_source_sha256": "61cbae0cf178e24df8d3be64cbc1d99b26dcf35a83203825e051e56ad6ba9b10"
+    }
+  },
+  "note": "Existing actual four-model summaries, copied without editing; CV observations come from archived stress predictions. No region raw predictions/manifest are available in the archive.",
+  "metadata_naming": "G-PACE naming normalized; current-file integrity hashes and recorded source hashes are stored separately."
+}

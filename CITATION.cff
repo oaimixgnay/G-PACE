@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the published G-PACE article when its bibliographic record becomes available."
+title: "G-PACE phenology-informed maize yield prediction and material selection"
+type: software
+version: 0.2.2
+authors:
+  - family-names: Yang
+    given-names: Ximiao
+  - family-names: Zhang
+    given-names: Wei

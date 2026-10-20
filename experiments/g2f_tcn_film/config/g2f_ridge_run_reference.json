@@ -1,0 +1,75 @@
+{
+  "protocol": {
+    "temporal_diagnostic": "fit through 2022, evaluate 2023",
+    "independent_external_evaluation": "fit 2014-2023, evaluate official 2024 labels",
+    "guardrail": "2024 observed yield is not used for fitting, stage-label construction, or configuration selection"
+  },
+  "config": {
+    "data_dir": "../G2F_2024_data",
+    "output_dir": "outputs/g2f_2024_day100",
+    "sequence_length": 100,
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "crossfit_folds": 3,
+    "bootstrap_repeats": 1000,
+    "stage_model": "ridge",
+    "yield_head": "catboost",
+    "device": "cuda",
+    "config_json": null
+  },
+  "stage_params": {
+    "genotype_components": 16,
+    "environment_components": 12,
+    "alpha": 10.0
+  },
+  "yield_params": {
+    "iterations": 1400,
+    "depth": 4,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 6.9,
+    "random_strength": 0.47,
+    "phenology_weight": 0.03,
+    "residual_weight": 0.75,
+    "mean_alpha": 0.42,
+    "task_type": "GPU"
+  },
+  "data_audit": {
+    "data_dir": "../G2F_2024_data",
+    "training_plot_records": 129057,
+    "training_plot_records_without_planting_date_excluded": 44903,
+    "training_gxe_means": 78139,
+    "external_2024_labeled_records": 9486,
+    "training_environment_count": 222,
+    "external_2024_environment_count": 22,
+    "external_2024_submission_pairs_without_label": 571,
+    "training_environments_without_weather_excluded": [
+      "TXH2_2015",
+      "TXH2_2016",
+      "TXH2_2017"
+    ],
+    "training_rows_without_complete_stage_exposure_excluded": 6624,
+    "training_rows_without_hybrid_genotype_excluded": 888,
+    "genotype_missing_calls_imputed": 455228,
+    "genotype_count": 5899,
+    "marker_count": 2425,
+    "environment_count": 244,
+    "sequence_shape": [
+      100,
+      10
+    ],
+    "sequence_length_requested": 100,
+    "sequence_length_min": 100,
+    "sequence_length_max": 100,
+    "stage_label_definition": "early=planting-to-pollen; flowering=pollen-3-to-silk+3; filling=silk+4-to-silk+53"
+  },
+  "outputs": {
+    "predictions": "./outputs/g2f_2024_day100/g2f_yield_predictions.csv",
+    "metrics": "./outputs/g2f_2024_day100/g2f_yield_metrics.csv",
+    "intervals": "./outputs/g2f_2024_day100/g2f_yield_metric_intervals.csv",
+    "stage_metrics": "./outputs/g2f_2024_day100/g2f_training_crossfit_exposure_metrics.csv",
+    "manifest": "./outputs/g2f_2024_day100/g2f_run_manifest.json"
+  }
+}

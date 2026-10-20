@@ -1,0 +1,471 @@
+[
+  {
+    "bundled_path": "experiments/g2f_tcn_film/postprocess_g2f_tcn_film.sh",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "postprocess_g2f_tcn_film.sh",
+    "sha256": "af9c7556531c768e24c81922c921528f95da32204bffac0581ac7d4039bfddb2",
+    "modified": false,
+    "source_sha256": "af9c7556531c768e24c81922c921528f95da32204bffac0581ac7d4039bfddb2"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/run_g2f_tcn_film.sh",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "run_g2f_tcn_film.sh",
+    "sha256": "899f0b575a62edeb6b202eb940cb0939bba769c003c837b334154c9cc7b6ff0c",
+    "modified": false,
+    "source_sha256": "899f0b575a62edeb6b202eb940cb0939bba769c003c837b334154c9cc7b6ff0c"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/.gitignore",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": ".gitignore",
+    "sha256": "c25d52e63711a921d79a246fd405622e40288de2d034e65bfa8d41612d5e4095",
+    "modified": false,
+    "source_sha256": "c25d52e63711a921d79a246fd405622e40288de2d034e65bfa8d41612d5e4095"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/tests/test_protocol.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "tests/test_protocol.py",
+    "sha256": "4a6c48d5683c553dbe9feb242a82f6b1677202814c1624b2705f7ce7df660486",
+    "modified": true,
+    "source_sha256": "2ea4b3d0dac0042593f23f6f7d591a7f92dce59513fd3b234ebb98512501e850",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/config/g2f_ridge_run_reference.json",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "config/g2f_ridge_run_reference.json",
+    "sha256": "c6daf51b6e14f433f2c891610d3d5da55f74b0d3774d3b4a609138bf0bfad283",
+    "modified": false,
+    "source_sha256": "c6daf51b6e14f433f2c891610d3d5da55f74b0d3774d3b4a609138bf0bfad283"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/config/source_provenance.json",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "config/source_provenance.json",
+    "sha256": "9cb6a1b57145fb9f0b107709b4b38896a1ceffdced36ad2dc11caf97067eacd6",
+    "modified": true,
+    "source_sha256": "b5a62cbae8d85ee6526c00adc749aca56287a99af4f0103a7cbcc9fd82ed534c",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/config/g2f_tcn_film_frozen.json",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "config/g2f_tcn_film_frozen.json",
+    "sha256": "44c8bfd213b239518076ccf950d49bf3af245a0d29ad4babec98ecf1fc91d6b9",
+    "modified": false,
+    "source_sha256": "44c8bfd213b239518076ccf950d49bf3af245a0d29ad4babec98ecf1fc91d6b9"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/config/network_signature.json",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "config/network_signature.json",
+    "sha256": "6909fdd9a53eaa319a46a47e99bc4844ce2480214ea8fd017aa67b5211ae1744",
+    "modified": false,
+    "source_sha256": "6909fdd9a53eaa319a46a47e99bc4844ce2480214ea8fd017aa67b5211ae1744"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/config/europe_frozen_reference.json",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "config/europe_frozen_reference.json",
+    "sha256": "1e14e9ebbf6348379c413cd44fce8a5b4f9bc151c0da24e66cc92da92d538676",
+    "modified": false,
+    "source_sha256": "1e14e9ebbf6348379c413cd44fce8a5b4f9bc151c0da24e66cc92da92d538676"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/scripts/export_tcn_film_results.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "scripts/export_tcn_film_results.py",
+    "sha256": "0c6ed25952ac6a408599b17c31c346f10da4f7dc87207050fb969e2e46ef2499",
+    "modified": false,
+    "source_sha256": "0c6ed25952ac6a408599b17c31c346f10da4f7dc87207050fb969e2e46ef2499"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/scripts/smoke_test_training.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "scripts/smoke_test_training.py",
+    "sha256": "49c7a3512d462836fe30d62745f3acd7ed0fb8b17489a97fcdb2183b49d51c17",
+    "modified": true,
+    "source_sha256": "294f388ae02bcf1e8fd4b60276f5522f982cef262a0f3f456d16cc62732d091f",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/scripts/run_g2f_tcn_film.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "scripts/run_g2f_tcn_film.py",
+    "sha256": "9b31edcbdc1630362d0b04653b1d558912ce98add78b379add133d1050e70e6b",
+    "modified": true,
+    "source_sha256": "c913bb544243dbc59a7dd4995ffd6b5e4a73b2b6ef9ce0fb673e2ade40dbc6f5",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/scripts/merge_tcn_film_results.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "scripts/merge_tcn_film_results.py",
+    "sha256": "9b7fc8824a46b9278133550032280e8311434504d297e6cd92fb87db1a2b0872",
+    "modified": true,
+    "source_sha256": "70b2fc2490b272a5b474af15fde52bb5baf319fc5b0dbd1ba8fb79304823fc02",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/scripts/analyze_g2f_decomposition_and_sparse_selection.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "scripts/analyze_g2f_decomposition_and_sparse_selection.py",
+    "sha256": "40b1a1c914cfe11dee966c4732159c58a0efa063a5497f0eb306211f7fe2191c",
+    "modified": true,
+    "source_sha256": "458c4a7da76010ee4a24994f8cc9c989649c068119d946ad44e7c41c01efbff1",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/models.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/models.py",
+    "sha256": "eaab39f4fd9fb1c90fea333e0ea70502bce477dfa2e8b7cf656939fae2fbcf86",
+    "modified": true,
+    "source_sha256": "90adf22d503762aa9a40038204ab037db56314ea915a1c7a5c3fe90a8b52cdb9",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/__init__.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/__init__.py",
+    "sha256": "3ec78df29cca2a6554d66181b38932c33554dbd5ef08324c7395f2affff1dd28",
+    "modified": true,
+    "source_sha256": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/tuning.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/tuning.py",
+    "sha256": "cb22cb6ad353a2e50972afc6e2c0973c0cee5ff8d0474f841ed68c8b18d7ebe9",
+    "modified": true,
+    "source_sha256": "b6105c4c1768c45af191439a29fb75d14925d9258a68d44aad236ed434ae93a0",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/splits.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/splits.py",
+    "sha256": "70e5c782adb03b2134a39e10ba6269c41e13b59cfb8d81508285d35431f21a98",
+    "modified": true,
+    "source_sha256": "3b6b576f8011335cbbcd40e189453b7cff3ea7058bec91b6c9c1e84f27d45dc3",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/experiment.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/experiment.py",
+    "sha256": "72b47aafcc3aa49992c70c186f5f7a64cc1fc78824b29e528c86a5774834bb57",
+    "modified": true,
+    "source_sha256": "4c967dc4545c9036b15b6fd78ad69a90c2179354a4e001fb51803929aaa3ed24",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/data.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/data.py",
+    "sha256": "fbca8a8814ba5b60fb4d555e4b058cc8afff71ce0372942917010faa6b34c73e",
+    "modified": true,
+    "source_sha256": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/g2f.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/g2f.py",
+    "sha256": "d75b7a90680f24b5ac300613d321338499f25b75e1b5c7dcfb9b50e4a131f747",
+    "modified": true,
+    "source_sha256": "97d3c24adbb51b36bb848336f454eeeaece52c017c24b916d157e7ac09ed9db9",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/reporting.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/reporting.py",
+    "sha256": "b04c3ed0365f5e3facaefc83b8e576edf282ba40b4f561bc4da2ef0e852384f6",
+    "modified": false,
+    "source_sha256": "b04c3ed0365f5e3facaefc83b8e576edf282ba40b4f561bc4da2ef0e852384f6"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/metrics.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/metrics.py",
+    "sha256": "b660909ea862eea85718043c5ca605e08be0ad5d7e7576bc46a22072d8319535",
+    "modified": false,
+    "source_sha256": "b660909ea862eea85718043c5ca605e08be0ad5d7e7576bc46a22072d8319535"
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/benchmarks.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/benchmarks.py",
+    "sha256": "b47bcf850dc35f8ad60793645740725594bac52f9c54f74f9254e5ab2bf6846b",
+    "modified": true,
+    "source_sha256": "f681451247eefe62fcb53a1f7bd5515983fc88502cf24e7be9b7967aa1a4a65b",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/features.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/features.py",
+    "sha256": "d35d72cda276987f34374dd4441a960d9bcbce8339ac0fb50214b1d6dbe75585",
+    "modified": true,
+    "source_sha256": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_tcn_film/src/gpace/tuning_v3.py",
+    "source_archive": "G2F_TCN_FiLM_GPACE_only.zip",
+    "source_path": "src/gpace/tuning_v3.py",
+    "sha256": "34f1ba6a07feddd26e5b0fb5d996dd0781c41cb01f659b72a7826ecec0edb19d",
+    "modified": true,
+    "source_sha256": "9f8b42aa40ede5a32f07ba2d75b654359a39e7b106662d6b8bdacc541368c088",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/analyze_only.sh",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "analyze_only.sh",
+    "sha256": "9c94935184a390147be6e2e6739bbf178caf61d14c1821f658e2f29a6fc6b7ac",
+    "modified": false,
+    "source_sha256": "9c94935184a390147be6e2e6739bbf178caf61d14c1821f658e2f29a6fc6b7ac"
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/requirements.txt",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "requirements.txt",
+    "sha256": "698fd77d08b4f670004a97e749c0a695ae2a7bb9124c60331f829763769b4018",
+    "modified": true,
+    "source_sha256": "4c4bae65b9f13be9c9c906442434fa0f6a1e77995014f418bdd6779cca3913cc",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/run_stage_ablation.sh",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "run_stage_ablation.sh",
+    "sha256": "a3a901550715f9d022b8a7a752a8958bcb69c38c262f623b8875344cd95d92a7",
+    "modified": false,
+    "source_sha256": "a3a901550715f9d022b8a7a752a8958bcb69c38c262f623b8875344cd95d92a7"
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/config/g2f_tcn_film_frozen.json",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "config/g2f_tcn_film_frozen.json",
+    "sha256": "44c8bfd213b239518076ccf950d49bf3af245a0d29ad4babec98ecf1fc91d6b9",
+    "modified": false,
+    "source_sha256": "44c8bfd213b239518076ccf950d49bf3af245a0d29ad4babec98ecf1fc91d6b9"
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/scripts/ablation_models.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "scripts/ablation_models.py",
+    "sha256": "a524b25674fa43732b0975ddef3e0bb7b717b684645234bc3a1c9a11fce2fba0",
+    "modified": true,
+    "source_sha256": "47ebe0abf3fb42d5f28544204510c857398d8230ba723934c41b24878b99c5d7",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/scripts/paired_statistics.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "scripts/paired_statistics.py",
+    "sha256": "b9af1916e923ffb61f4ae541e845c593b28cd1eabc30e7ac811605c59df4b62f",
+    "modified": false,
+    "source_sha256": "b9af1916e923ffb61f4ae541e845c593b28cd1eabc30e7ac811605c59df4b62f"
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/scripts/self_test.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "scripts/self_test.py",
+    "sha256": "c1533dd47e7353279afee0b5b666de73c66457b814e0d8c8bd96fb2102db9709",
+    "modified": true,
+    "source_sha256": "1278c0c063fedc146ae0c65f44e32935a6bc33e1f9921addeac4705fc5219eec",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/scripts/run_stage_ablation.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "scripts/run_stage_ablation.py",
+    "sha256": "1cbb90037fc8c97c5f836e6f070c36539307dd9ec3023605b63f5c87b4f31758",
+    "modified": true,
+    "source_sha256": "340683e30e71ec32fcb9337211b40c2745a583adf0a37cb78b854a30b5cc50a4",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/src/gpace/models.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "src/gpace/models.py",
+    "sha256": "eaab39f4fd9fb1c90fea333e0ea70502bce477dfa2e8b7cf656939fae2fbcf86",
+    "modified": true,
+    "source_sha256": "90adf22d503762aa9a40038204ab037db56314ea915a1c7a5c3fe90a8b52cdb9",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/src/gpace/__init__.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "src/gpace/__init__.py",
+    "sha256": "3ec78df29cca2a6554d66181b38932c33554dbd5ef08324c7395f2affff1dd28",
+    "modified": true,
+    "source_sha256": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/src/gpace/data.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "src/gpace/data.py",
+    "sha256": "fbca8a8814ba5b60fb4d555e4b058cc8afff71ce0372942917010faa6b34c73e",
+    "modified": true,
+    "source_sha256": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/src/gpace/g2f.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "src/gpace/g2f.py",
+    "sha256": "d75b7a90680f24b5ac300613d321338499f25b75e1b5c7dcfb9b50e4a131f747",
+    "modified": true,
+    "source_sha256": "97d3c24adbb51b36bb848336f454eeeaece52c017c24b916d157e7ac09ed9db9",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_stage_ablation/src/gpace/features.py",
+    "source_archive": "G2F_Stage_Ablation.zip",
+    "source_path": "src/gpace/features.py",
+    "sha256": "d35d72cda276987f34374dd4441a960d9bcbce8339ac0fb50214b1d6dbe75585",
+    "modified": true,
+    "source_sha256": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/run_fixed_calendar.sh",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "run_fixed_calendar.sh",
+    "sha256": "7c45be4d3f3a63840419773bc89e3c20ed5af8e3ac79607a7f2cead1e3cb5958",
+    "modified": false,
+    "source_sha256": "7c45be4d3f3a63840419773bc89e3c20ed5af8e3ac79607a7f2cead1e3cb5958"
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/requirements.txt",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "requirements.txt",
+    "sha256": "698fd77d08b4f670004a97e749c0a695ae2a7bb9124c60331f829763769b4018",
+    "modified": true,
+    "source_sha256": "4c4bae65b9f13be9c9c906442434fa0f6a1e77995014f418bdd6779cca3913cc",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/config/g2f_tcn_film_frozen.json",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "config/g2f_tcn_film_frozen.json",
+    "sha256": "44c8bfd213b239518076ccf950d49bf3af245a0d29ad4babec98ecf1fc91d6b9",
+    "modified": false,
+    "source_sha256": "44c8bfd213b239518076ccf950d49bf3af245a0d29ad4babec98ecf1fc91d6b9"
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/scripts/ablation_models.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "scripts/ablation_models.py",
+    "sha256": "a524b25674fa43732b0975ddef3e0bb7b717b684645234bc3a1c9a11fce2fba0",
+    "modified": true,
+    "source_sha256": "47ebe0abf3fb42d5f28544204510c857398d8230ba723934c41b24878b99c5d7",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/scripts/gpu_budget.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "scripts/gpu_budget.py",
+    "sha256": "1f452178c1d1cf253ada8ec80c59463d6b9993ace5f7078226a104a029c9d38e",
+    "modified": true,
+    "source_sha256": "176175d9f195a34ba17e2a645990dbfd2fbd217ef25aaeffc70a1f41c2261c37",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/scripts/calendar_targets.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "scripts/calendar_targets.py",
+    "sha256": "cebc6145883f775ec307638a660ccafd3172b32fa5080c83f251a6c360155c99",
+    "modified": true,
+    "source_sha256": "1d2382d93c9a33180e31dcf850958e978d1e5d2755cb55ea03df7674fb2b1f4e",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/scripts/self_test_calendar.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "scripts/self_test_calendar.py",
+    "sha256": "c911c26ea54b198b310af4989a2009733b02678c7538032bb5dc92668f56777d",
+    "modified": true,
+    "source_sha256": "ff28e671d03aa6efef6a5d6329af02c241c4440ef4f6b895c933d2fdf67ed509",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/scripts/paired_statistics.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "scripts/paired_statistics.py",
+    "sha256": "b9af1916e923ffb61f4ae541e845c593b28cd1eabc30e7ac811605c59df4b62f",
+    "modified": false,
+    "source_sha256": "b9af1916e923ffb61f4ae541e845c593b28cd1eabc30e7ac811605c59df4b62f"
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/scripts/run_fixed_calendar.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "scripts/run_fixed_calendar.py",
+    "sha256": "2ea363d87378d492ec992f0d8ce87ec95769158ac6ee07607897e417e3cb762f",
+    "modified": true,
+    "source_sha256": "9f457c89540722fe04d0118d9f8ac231ee2490799d5a4fcab1d4699160df9aec",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/scripts/run_stage_ablation.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "scripts/run_stage_ablation.py",
+    "sha256": "1cbb90037fc8c97c5f836e6f070c36539307dd9ec3023605b63f5c87b4f31758",
+    "modified": true,
+    "source_sha256": "340683e30e71ec32fcb9337211b40c2745a583adf0a37cb78b854a30b5cc50a4",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/src/gpace/models.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "src/gpace/models.py",
+    "sha256": "eaab39f4fd9fb1c90fea333e0ea70502bce477dfa2e8b7cf656939fae2fbcf86",
+    "modified": true,
+    "source_sha256": "90adf22d503762aa9a40038204ab037db56314ea915a1c7a5c3fe90a8b52cdb9",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/src/gpace/__init__.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "src/gpace/__init__.py",
+    "sha256": "3ec78df29cca2a6554d66181b38932c33554dbd5ef08324c7395f2affff1dd28",
+    "modified": true,
+    "source_sha256": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/src/gpace/data.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "src/gpace/data.py",
+    "sha256": "fbca8a8814ba5b60fb4d555e4b058cc8afff71ce0372942917010faa6b34c73e",
+    "modified": true,
+    "source_sha256": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/src/gpace/g2f.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "src/gpace/g2f.py",
+    "sha256": "d75b7a90680f24b5ac300613d321338499f25b75e1b5c7dcfb9b50e4a131f747",
+    "modified": true,
+    "source_sha256": "97d3c24adbb51b36bb848336f454eeeaece52c017c24b916d157e7ac09ed9db9",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  },
+  {
+    "bundled_path": "experiments/g2f_fixed_calendar/src/gpace/features.py",
+    "source_archive": "G2F_Fixed_Calendar_Control.zip",
+    "source_path": "src/gpace/features.py",
+    "sha256": "d35d72cda276987f34374dd4441a960d9bcbce8339ac0fb50214b1d6dbe75585",
+    "modified": true,
+    "source_sha256": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+    "changes": "Project naming normalized to G-PACE; training and statistical expressions retained."
+  }
+]

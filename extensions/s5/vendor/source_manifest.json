@@ -1,0 +1,22 @@
+{
+  "origin": "论文修改(1).7z / gpace_rebuild/src/gpace",
+  "note": "G-PACE modules isolated under _s5_gpace; source identifiers use the project namespace.",
+  "upstream_sha256": {
+    "__init__.py": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+    "data.py": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+    "splits.py": "3b6b576f8011335cbbcd40e189453b7cff3ea7058bec91b6c9c1e84f27d45dc3",
+    "benchmarks.py": "f681451247eefe62fcb53a1f7bd5515983fc88502cf24e7be9b7967aa1a4a65b",
+    "features.py": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+    "models.py": "d5be6ae6648ba019ce815c6e164c6d392758e094380745304c8cbd3370c81be8",
+    "metrics.py": "b660909ea862eea85718043c5ca605e08be0ad5d7e7576bc46a22072d8319535"
+  },
+  "sha256": {
+    "__init__.py": "3ec78df29cca2a6554d66181b38932c33554dbd5ef08324c7395f2affff1dd28",
+    "data.py": "fbca8a8814ba5b60fb4d555e4b058cc8afff71ce0372942917010faa6b34c73e",
+    "splits.py": "70e5c782adb03b2134a39e10ba6269c41e13b59cfb8d81508285d35431f21a98",
+    "benchmarks.py": "b47bcf850dc35f8ad60793645740725594bac52f9c54f74f9254e5ab2bf6846b",
+    "features.py": "d35d72cda276987f34374dd4441a960d9bcbce8339ac0fb50214b1d6dbe75585",
+    "models.py": "c6caee82b8ad3ee1f97e0cac44d9c829cdbc346a90e4362ddd9ff53b19a4da0c",
+    "metrics.py": "b660909ea862eea85718043c5ca605e08be0ad5d7e7576bc46a22072d8319535"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "training_signature": "e3dc9e03796b78a4c85e8d63ada1e127a5a00a84acc0203d79d4406c994efbb4",
+  "provenance": {
+    "config": {
+      "stage_model": "tcn_film",
+      "sequence_length": 100,
+      "stage_params": {
+        "genotype_components": 16,
+        "width": 64,
+        "depth": 2,
+        "kernel_size": 5,
+        "dropout": 0.05575064209904841,
+        "learning_rate": 0.00023331612883254398,
+        "weight_decay": 4.294872966184637e-06,
+        "batch_size": 512,
+        "epochs": 120,
+        "patience": 15,
+        "validation_fraction": 0.15,
+        "amp": true
+      },
+      "yield_mode": "mean_residual_hybrid",
+      "yield_head": "catboost",
+      "yield_genotype_components": 16,
+      "yield_environment_components": 12,
+      "yield_params": {
+        "iterations": 1400,
+        "depth": 4,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 6.9,
+        "random_strength": 0.47,
+        "phenology_weight": 0.03,
+        "residual_weight": 0.75,
+        "mean_alpha": 0.42
+      },
+      "protocol": {
+        "training_years": "2014-2023",
+        "evaluation_year": 2024,
+        "crossfit_folds": 3,
+        "seeds": [
+          2026,
+          2027,
+          2028
+        ],
+        "configuration_selection": "Frozen European stage configuration and verified historical G2F yield settings; no new tuning on 2024 labels.",
+        "comparison_scope": "New stage algorithm with G2F-specific yield settings; not an unchanged European trained model."
+      }
+    },
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "threads": 8,
+    "stage_device": "cuda",
+    "memory_budget_gb": 20.0,
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "joblib": "1.5.3",
+      "catboost": "1.2.10",
+      "threadpoolctl": "3.6.0",
+      "torch": "2.5.1+cu121"
+    },
+    "inputs": {
+      "1_Training_Trait_Data_2014_2023.csv": "f206848428c9e7ff330716b0fc46ed78590deeb6dd38433b0b1b23a0390a21fb",
+      "2_Training_Meta_Data_2014_2023.csv": "6a251804d60a0cf12f7a0daf97db5e8982846444670ee7664d879f48558b6049",
+      "4_Training_Weather_Data_2014_2023_full_year.csv": "f9655f9db6df859cbd79b9be3ecead2c9229ad179b72a0292fd82d100e77865a",
+      "5_Genotype_Data_All_2014_2025_Hybrids_numerical.txt": "7113e3fcf53e26c13e6f00a9a467870c8eb664f7d9777a7737cde03b75aaf10a",
+      "1_Submission_Template_2024.csv": "80969670ef0f61c16d3dcaa1c410b1f1c628a2d0ca3ad21d444236e7ce8c4178",
+      "2_Testing_Meta_Data_2024.csv": "10bdecd20bc15bfe7354a6b1ee39eb0b9d206f0dfe4d220386c17dea86fffdab",
+      "4_Testing_Weather_Data_2024_full_year.csv": "1a9db3c7a992e89e0de1e48b7dc4afae0c9181abc3413b48a9fd86767793a1a8",
+      "7_Testing_Observed_Values.csv": "8bd354c44bce50abd09a9839272112fdb34bdb96ec6e37ae644eda916aeeabcc"
+    },
+    "paired_manifest_sha256": "bc6c4af2083364de50e53fd84dd137ed5b4880ba24a9abf5e78554fa6efc36a9",
+    "paired_predictions_sha256": "afd85be9a005cd6664a02cedf144536e453945effc9cfd78cd9a08a77a46b918",
+    "source_manifest_sha256": "28c427cf33b623e8db081736cecb6b0c8d0ec495726b5427dbf05c445a693053",
+    "code_sha256": {
+      "scripts/ablation_models.py": "47ebe0abf3fb42d5f28544204510c857398d8230ba723934c41b24878b99c5d7",
+      "scripts/calendar_targets.py": "1d2382d93c9a33180e31dcf850958e978d1e5d2755cb55ea03df7674fb2b1f4e",
+      "scripts/gpu_budget.py": "176175d9f195a34ba17e2a645990dbfd2fbd217ef25aaeffc70a1f41c2261c37",
+      "scripts/paired_statistics.py": "b9af1916e923ffb61f4ae541e845c593b28cd1eabc30e7ac811605c59df4b62f",
+      "scripts/run_fixed_calendar.py": "9f457c89540722fe04d0118d9f8ac231ee2490799d5a4fcab1d4699160df9aec",
+      "scripts/run_stage_ablation.py": "340683e30e71ec32fcb9337211b40c2745a583adf0a37cb78b854a30b5cc50a4",
+      "scripts/self_test_calendar.py": "ff28e671d03aa6efef6a5d6329af02c241c4440ef4f6b895c933d2fdf67ed509",
+      "src/gpace/__init__.py": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+      "src/gpace/data.py": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+      "src/gpace/features.py": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+      "src/gpace/g2f.py": "97d3c24adbb51b36bb848336f454eeeaece52c017c24b916d157e7ac09ed9db9",
+      "src/gpace/models.py": "90adf22d503762aa9a40038204ab037db56314ea915a1c7a5c3fe90a8b52cdb9"
+    }
+  },
+  "started_utc": "2026-10-16T12:35:32.016598+00:00",
+  "window_policy": "Each fit uses medians from its historical fitting rows only; common boundaries across all G and E within that fit.",
+  "comparison_policy": "No new parameter or window search. Target definition is the stage-model experimental difference. Yield heads share the CPU backend.",
+  "stage_backend_policy": "CUDA: reuse completed CUDA phenology stage/CPU yield reference. CPU: refit BOTH phenology and calendar stage models and their CPU yield heads.",
+  "test_policy": "2024 already inspected in earlier experiments; this is a retrospective robustness analysis, not a new blind evaluation.",
+  "completed_utc": "2026-10-16T14:29:58.890390+00:00",
+  "data_audit": {
+    "data_dir": "${G2F_DATA_DIR}",
+    "training_plot_records": 129057,
+    "training_plot_records_without_planting_date_excluded": 44903,
+    "training_gxe_means": 78139,
+    "external_2024_labeled_records": 9486,
+    "training_environment_count": 222,
+    "external_2024_environment_count": 22,
+    "external_2024_submission_pairs_without_label": 571,
+    "training_environments_without_weather_excluded": [
+      "TXH2_2015",
+      "TXH2_2016",
+      "TXH2_2017"
+    ],
+    "training_rows_without_complete_stage_exposure_excluded": 6624,
+    "training_rows_without_hybrid_genotype_excluded": 888,
+    "genotype_missing_calls_imputed": 455228,
+    "genotype_count": 5899,
+    "marker_count": 2425,
+    "environment_count": 244,
+    "sequence_shape": [
+      100,
+      10
+    ],
+    "sequence_length_requested": 100,
+    "sequence_length_min": 100,
+    "sequence_length_max": 100,
+    "stage_label_definition": "early=planting-to-pollen; flowering=pollen-3-to-silk+3; filling=silk+4-to-silk+53"
+  },
+  "observed_process_gpu_peak_gb": 0.819986432,
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

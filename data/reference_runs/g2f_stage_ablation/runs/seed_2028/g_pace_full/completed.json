@@ -1,0 +1,12 @@
+{
+  "training_signature": "d62ad0f5f0554cd842a034cfa2c51f5f11201acbae8fdfc2cbbfd2bf3d83e307",
+  "completed_utc": "2026-10-16T11:52:00.062093+00:00",
+  "include_stage": true,
+  "backend": "CPU",
+  "feature_count": 407,
+  "sha256": {
+    "predictions.csv": "eb3fc7d490a7e9086ea8d86c1fa38043eba2087617b2148d711d9137fe7463c5",
+    "yield_model.joblib": "f963bbaf55502e543704620228989c40dec84704cadfe4151d1fb2bc87f0e672"
+  },
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}

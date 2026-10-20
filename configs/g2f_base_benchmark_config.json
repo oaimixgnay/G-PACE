@@ -1,0 +1,24 @@
+{
+  "models": {
+    "reaction_norm_rff": {
+      "genotype_components": 32,
+      "environment_components": 12,
+      "rff_components": 256,
+      "alpha": 100.0
+    },
+    "ceris_jgra": {
+      "genotype_components": 32,
+      "alpha": 1.0,
+      "min_window": 7,
+      "max_window": 35,
+      "window_step": 7
+    }
+  },
+  "selection_protocol": {
+    "fit_years": "through 2022",
+    "selection_holdout": 2023,
+    "selection_seed": 2026,
+    "external_2024_labels_used": false,
+    "objective": "0.40 PCC + 0.30 within-environment PCC + 0.20 within-environment Spearman + 0.10 clipped R2"
+  }
+}

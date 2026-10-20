@@ -1,0 +1,6 @@
+{
+  "europe_network_ast_sha256": "20ad8594f4d703e3f4beb6cf2b300ddf6006183cc121d29af3849d3652f2aeb7",
+  "architecture": "Genotype-conditioned TCN with FiLM modulation, width=64, depth=2, kernel_size=5. Network definition identical to the European source.",
+  "europe_network_source_sha256": "f4e428d3f43327bbbaf4e67313573e0078bfa1dcd9185dd8df565dde05ab5b0b",
+  "signature_method": "SHA256 of the exact UTF-8 _TCNNetwork source; universal-newline normalization. AST serialization is not used."
+}

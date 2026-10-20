@@ -1,0 +1,29 @@
+{
+  "models": {
+    "ec_gblup": {
+      "genotype_components": 64,
+      "environment_components": 8,
+      "genotype_alpha": 10.0,
+      "environment_alpha": 1.0,
+      "interaction_alpha": 30.0
+    },
+    "geformer_style": {
+      "genotype_components": 64,
+      "width": 96,
+      "heads": 4,
+      "dropout": 0.15,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0001,
+      "batch_size": 512,
+      "epochs": 120,
+      "patience": 15
+    }
+  },
+  "selection_protocol": {
+    "fit_years": "through 2022",
+    "selection_holdout": 2023,
+    "selection_seed": 2026,
+    "external_2024_labels_used": false,
+    "objective": "0.40 PCC + 0.30 within-environment PCC + 0.20 within-environment Spearman + 0.10 clipped R2"
+  }
+}

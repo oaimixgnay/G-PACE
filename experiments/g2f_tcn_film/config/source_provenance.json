@@ -1,0 +1,62 @@
+[
+  {
+    "bundled_path": "src/gpace/tuning_v3.py",
+    "reference_sha256": "9f8b42aa40ede5a32f07ba2d75b654359a39e7b106662d6b8bdacc541368c088",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/g2f.py",
+    "reference_sha256": "97d3c24adbb51b36bb848336f454eeeaece52c017c24b916d157e7ac09ed9db9",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/metrics.py",
+    "reference_sha256": "b660909ea862eea85718043c5ca605e08be0ad5d7e7576bc46a22072d8319535",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/features.py",
+    "reference_sha256": "a162609648f9ce6005e2d914bab2a431f985af0328cdf28e72811cc37e37128e",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/experiment.py",
+    "reference_sha256": "4c967dc4545c9036b15b6fd78ad69a90c2179354a4e001fb51803929aaa3ed24",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/splits.py",
+    "reference_sha256": "3b6b576f8011335cbbcd40e189453b7cff3ea7058bec91b6c9c1e84f27d45dc3",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/__init__.py",
+    "reference_sha256": "785cc18961015403127450a35709ec3c561f35b20d57811d2a8c8621ef394c4a",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/reporting.py",
+    "reference_sha256": "b04c3ed0365f5e3facaefc83b8e576edf282ba40b4f561bc4da2ef0e852384f6",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/tuning.py",
+    "reference_sha256": "b6105c4c1768c45af191439a29fb75d14925d9258a68d44aad236ed434ae93a0",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/data.py",
+    "reference_sha256": "c6d8f5e784331b0ea4d23736be7dc29b7e3225d5af79c24f1f20f50c4886506f",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/benchmarks.py",
+    "reference_sha256": "f681451247eefe62fcb53a1f7bd5515983fc88502cf24e7be9b7967aa1a4a65b",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  },
+  {
+    "bundled_path": "src/gpace/models.py",
+    "reference_sha256": "d5be6ae6648ba019ce815c6e164c6d392758e094380745304c8cbd3370c81be8",
+    "changes": "Project identifiers renamed to G-PACE; numerical implementation retained."
+  }
+]

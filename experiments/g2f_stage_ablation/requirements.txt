@@ -1,0 +1,9 @@
+# Use the existing gpace environment if available. No torch/CUDA needed.
+# These are versions from the completed original server run, except threadpoolctl.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+joblib==1.5.3
+catboost==1.2.10
+threadpoolctl>=3.1,<4

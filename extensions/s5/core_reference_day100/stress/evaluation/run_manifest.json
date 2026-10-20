@@ -1,0 +1,100 @@
+{
+  "config": {
+    "data_dir": "../玉米NG原始data",
+    "output_dir": "outputs/environment_holdouts_v2_day100/stress/evaluation",
+    "sequence_length": 100,
+    "splits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "stage_model": "tcn_film",
+    "crossfit_folds": 3,
+    "genotype_components": 16,
+    "environment_components": 12,
+    "exposure_alpha": 10.0,
+    "yield_alpha": 10.0,
+    "bootstrap_repeats": 0,
+    "tcn_epochs": 100,
+    "tcn_patience": 12,
+    "device": "cuda",
+    "final_external": false,
+    "stage_params": {
+      "genotype_components": 16,
+      "width": 64,
+      "depth": 2,
+      "kernel_size": 5,
+      "dropout": 0.05575064209904841,
+      "learning_rate": 0.00023331612883254398,
+      "weight_decay": 4.294872966184637e-06,
+      "batch_size": 512,
+      "epochs": 120,
+      "patience": 15,
+      "validation_fraction": 0.15,
+      "amp": true,
+      "device": "cuda"
+    },
+    "yield_mode": "mean_residual_hybrid",
+    "yield_head": "catboost",
+    "yield_params": {
+      "iterations": 1000,
+      "depth": 4,
+      "learning_rate": 0.03557733963384608,
+      "l2_leaf_reg": 1.763396496867069,
+      "random_strength": 0.39846346690829837,
+      "task_type": "GPU",
+      "phenology_weight": 0.03,
+      "mean_alpha": 3.4519053372132267,
+      "residual_weight": 0.75
+    },
+    "yield_genotype_components": null,
+    "paper_ablation": false,
+    "supplied_cv": false,
+    "environment_holdout": "stress",
+    "model_suite": "core"
+  },
+  "data_audit": {
+    "data_dir": "/mnt/jx_32T/yangximiao/GPACE/玉米NG原始data",
+    "duplicate_yield_rows_removed": 1,
+    "duplicate_exposure_rows_removed": 0,
+    "yield_rows_with_missing_target_excluded": 1,
+    "record_counts": {
+      "cross_validation": 6150,
+      "external_known_genotype": 383,
+      "external_new_genotype": 224
+    },
+    "genotype_count": 302,
+    "known_genotype_count": 246,
+    "new_genotype_count": 56,
+    "environment_count": 37,
+    "marker_count": 41722,
+    "sequence_shape": [
+      100,
+      23
+    ],
+    "sequence_length_requested": 100,
+    "sequence_length_min": 100,
+    "sequence_length_max": 100
+  },
+  "outputs": {
+    "predictions": "/mnt/jx_32T/yangximiao/GPACE/gpace_rebuild/outputs/environment_holdouts_v2_day100/stress/evaluation/yield_predictions.csv",
+    "exposure_predictions": "/mnt/jx_32T/yangximiao/GPACE/gpace_rebuild/outputs/environment_holdouts_v2_day100/stress/evaluation/exposure_predictions.csv",
+    "metrics": "/mnt/jx_32T/yangximiao/GPACE/gpace_rebuild/outputs/environment_holdouts_v2_day100/stress/evaluation/yield_metrics.csv",
+    "intervals": "/mnt/jx_32T/yangximiao/GPACE/gpace_rebuild/outputs/environment_holdouts_v2_day100/stress/evaluation/yield_metric_intervals.csv",
+    "exposure_metrics": "/mnt/jx_32T/yangximiao/GPACE/gpace_rebuild/outputs/environment_holdouts_v2_day100/stress/evaluation/exposure_metrics.csv",
+    "manifest": "/mnt/jx_32T/yangximiao/GPACE/gpace_rebuild/outputs/environment_holdouts_v2_day100/stress/evaluation/run_manifest.json"
+  },
+  "metadata_naming": "Project identifiers and source-path labels use G-PACE; recorded run hashes are retained."
+}
