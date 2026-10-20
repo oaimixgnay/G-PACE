@@ -62,18 +62,3 @@ bash workflows/g2f_comparators.sh /原始G2F数据目录
 主比较与配对对照分别保留对应的 GPU／CPU 产量模型后端。配对无阶段和固定日历训练依赖主模型训练生成的完整 OOF 缓存目录。通过 `PYTHON`、`DEVICE`、`THREADS`、`STAGE_DEVICE` 等环境变量调整运行环境。
 
 原始输入文件要求见 [数据说明](docs/DATA.md)，程序对应关系见 [运行说明](docs/WORKFLOWS.md)。
-
-## 上传到 GitHub
-
-将解压后 `G-PACE` 文件夹内的文件和目录整体上传。仓库建议命名为 `G-PACE`。
-
-如果使用 Git，先创建空远程仓库，再在本目录执行：
-
-```bash
-git init
-git add .
-git commit -m "Add G-PACE manuscript analysis code"
-git branch -M main
-git remote add origin https://github.com/oaimixgnay/G-PACE.git
-git push -u origin main
-```
