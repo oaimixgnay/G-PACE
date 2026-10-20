@@ -28,8 +28,8 @@
     },
     {
       "path": "README_CN.md",
-      "bytes": 3537,
-      "sha256": "7f31ae27da89572057a75e7c4a91a063f95055decd1e866690338136f28ddfd9"
+      "bytes": 3009,
+      "sha256": "288b5600c8a325ee1595b3ef058c09636818e06904d62e28748baea64831aa90"
     },
     {
       "path": "analyses/g2f_six_models/analysis_components.py",
@@ -1023,8 +1023,8 @@
     },
     {
       "path": "scripts/build_release_manifest.py",
-      "bytes": 638,
-      "sha256": "149cec3417ff2ded74d4e9cc8e1d600b741e2bd7a92feb69b6174c116141ace6"
+      "bytes": 918,
+      "sha256": "73685c64f1866b52198954c6cc42a7c98dd79bb62b8fc07880a62b87a923861d"
     },
     {
       "path": "scripts/capture_environment.py",
